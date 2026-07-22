@@ -20,6 +20,7 @@
     --color-grey:#a0a0a0;
     --color-grey:#f2f2f2;
      --color-dark-grey: #555555;
+      --font-size-small: 1.2rem;
 }
     form{
         display: flex;
@@ -83,7 +84,7 @@
     background-color: var(--color-white);
 }
 
-.form-group .focus-within{
+.form-group:focus-within{
     background-color: var(--color-light-grey);
     transition: .3s;
 }
@@ -107,13 +108,13 @@
     line-height: 1.3;
     letter-spacing: .019rem;
     color: var(--color-dark-grey);
-    font-size: small;
+    font-size: var(--font-size-small);
     max-height: 0;
     transition: .3s;
     overflow: hidden;
 }
 
-.focus-within .form-group .form-help{
+.form-group:focus-within .form-help{
     max-height: 20rem;
     margin: .4rem 0 0;
 }
