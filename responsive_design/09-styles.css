@@ -437,21 +437,21 @@
   /* Footer
       ============================= */
 
- @media (max-width: 767px) {
-  :root {
-    --footer-padding: 5rem 2rem 1rem;
-  }
- 
-  .footer .social.nav,
-  .footer .footer-nav {
-    text-align: center;
-  }
+@media screen and (max-width: 767px) {
+	:root {
+		--footer-padding: 5rem 2rem 1rem;
+	}
 
-  .footer-nav li + li,
-  .social.nav li + li {
-    padding-left: 2rem;
-  }
- }
+	.footer .footer-nav,
+	.footer .social.nav {
+		text-align: center;
+	}
+
+	.footer-nav li+li,
+	.social.nav li+li {
+		padding-left: 2rem;
+	}
+}
 
   .footer {
     --nav-item-font-weight: normal;
