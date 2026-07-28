@@ -436,23 +436,6 @@
 
   /* Footer
       ============================= */
-
-@media screen and (max-width: 767px) {
-	:root {
-		--footer-padding: 5rem 2rem 1rem;
-	}
-
-	.footer .footer-nav,
-	.footer .social.nav {
-		text-align: center;
-	}
-
-	.footer-nav li+li,
-	.social.nav li+li {
-		padding-left: 2rem;
-	}
-}
-
   .footer {
     --nav-item-font-weight: normal;
     --nav-item-font-size: var(--font-size-small);
@@ -480,6 +463,22 @@
   .social-link > svg {
     fill: var(--text-color);
   }
+
+  @media screen and (max-width: 767px) {
+	:root {
+		--footer-padding: 5rem 2rem 1rem;
+	}
+
+	.footer .footer-nav,
+	.footer .social.nav {
+		text-align: center;
+	}
+
+	.footer-nav li+li,
+	.social.nav li+li {
+		padding-left: 2rem;
+	}
+}
 
   /*** 3. SECTION ***/
 
