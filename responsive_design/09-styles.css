@@ -442,12 +442,12 @@
       --footer-padding: 5rem 2rem 1rem;
     }
 
-    .footer .social.nav,
+    .footer .social-nav,
     .footer .footer-nav {
       text-align: center;
     }
 
-    .social.nav > li + li,
+    .social-nav > li + li,
     .footer-nav > li + li {
       padding-left: 2rem;
     }
