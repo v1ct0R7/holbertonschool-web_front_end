@@ -619,24 +619,6 @@ ul.row {
   fill: var(--text-color);
 }
 
-@media (max-width: 767px) {
-  :root {
-    --footer-padding: 5rem 2rem 1rem;
-  }
-
-  .footer .social.nav {
-    text-align: center;
-  }
-
-  .footer .footer-nav {
-    text-align: center;
-  }
-
-  .footer .social.nav li + li,
-  .footer .footer-nav li + li {
-    padding-left: 2rem;
-  }
-}
 /*** 3. SECTION ***/
 
 /* Section (all styles)
@@ -1222,4 +1204,20 @@ textarea:valid:not(:placeholder-shown) {
   padding: 0;
   cursor: text;
   margin: 0 1rem;
+}
+/* Footer - Mobile */
+@media screen and (max-width: 767px) {
+  :root {
+    --footer-padding: 5rem 2rem 1rem;
+  }
+
+  .footer .social.nav,
+  .footer .footer-nav {
+    text-align: center;
+  }
+
+  .footer .social.nav li + li,
+  .footer .footer-nav li + li {
+    padding-left: 2rem;
+  }
 }
