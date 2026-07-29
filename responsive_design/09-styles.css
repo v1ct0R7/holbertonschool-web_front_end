@@ -1211,11 +1211,11 @@ textarea:valid:not(:placeholder-shown) {
     --footer-padding: 5rem 2rem 1rem;
   }
 
-   .footer .social.nav {
+  .social.nav {
     text-align: center;
   }
 
-  .footer .footer-nav {
+  .footer-nav {
     text-align: center;
   }
 
