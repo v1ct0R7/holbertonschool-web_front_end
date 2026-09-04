@@ -1,0 +1,1 @@
+This are ex. with cookies in local storage!
